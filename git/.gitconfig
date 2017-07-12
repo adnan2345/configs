@@ -12,7 +12,8 @@
   branches = branch -vva
   cb = "!f() { git rev-parse --abbrev-ref HEAD; }; f"
   chkm = checkout master
-  chkb = "!f() { git checkout -b $1; }; f"
+  nb = "!f() { git checkout -b $1; }; f"
+  chkb = "!f() { git checkout $1; }; f"
   delb = "!f() { git branch -D $1; }; f"
   purge = !"git branch --merged | grep -Ev '\\*|master' | xargs -n 1 git branch -d"
   st = status

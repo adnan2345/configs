@@ -17,8 +17,7 @@ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
   - **git chkb <`branch`>**: Checkout a given branch.
   - **git delb <`branch`>**: Delete a given branch.
   - **git purge**: Delete all local branches that has been merged.
-  - **git rnm <`old_branch`> <`new_branch`>**: Rename a branch to the given branch.
-  - **git rnmc <`new_branch`>**: Rename the current checked out branch to the given branch.
+  - **git rename <`old_branch`> <`new_branch`>**: Rename a branch to the given branch.
 
 ### Commits:
   - **git st**: Show the working tree status.

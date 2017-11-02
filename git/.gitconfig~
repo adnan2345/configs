@@ -37,6 +37,7 @@
   prep = "!f() { git add $1 && git amend; }; f"
   prepup = "!f() { git add $1 && git amend && git fpoc; }; f"	 
   send = "!f() { git amend && git fpoc; }; f"
-  rename = "!f() { git branch -m $1 $2 && git push origin :$1 && git fpoc; }; f"
+  rnm = "!f() { git branch -m $1 $2 && git push origin :$1 && git fpoc; }; f"
+  rnmc = "!f() { git branch -m `git cb` $1 && git push origin :`git cb` && git fpoc; }; f"
 [core]
   editor = vim

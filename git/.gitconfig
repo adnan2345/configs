@@ -34,6 +34,7 @@
   fp = "!f() { git push $1 +$2; }; f"
   fpo = "!f() { git push origin +$2; }; f"
   fpoc = "!f() { git fp origin `git cb`; }; f"
+  plc = "!f() { git pull origin `git cb`; }; f"
   prep = "!f() { git add $1 && git amend; }; f"
   prepup = "!f() { git add $1 && git amend && git fpoc; }; f"	 
   send = "!f() { git amend && git fpoc; }; f"

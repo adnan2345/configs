@@ -19,6 +19,7 @@ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
   - **git purge**: Delete all local branches that has been merged.
   - **git rnm <`old_branch`> <`new_branch`>**: Rename a branch to the given branch.
   - **git rnmc <`new_branch`>**: Rename the current checked out branch to the given branch.
+  - **git plc**: Pull from the current checked out branch.
 
 ### Commits:
   - **git st**: Show the working tree status.

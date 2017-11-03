@@ -40,6 +40,7 @@ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
   - **git fet**: Prune and fetch the latest from remote (origin) master.
   - **git fetu**: Prune and fetch the latest from upstream master.
   - **git rbm**: Interactively rebase against the remote (origin) master.
+  - **git rbo <`branch`>**: Interactively rebase against some other branch in remote.
   - **git rb <`remote`> <`branch`>**: Interactively rebase against a given remote and branch.
   - **git fp <`remote`> <`branch`>**: Force push to a given remote and branch.
   - **git fpo <`branch`>**: Force push to a given branch in remote (origin).

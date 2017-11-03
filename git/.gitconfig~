@@ -30,10 +30,12 @@
   fet = fetch -p
   fetu = fetch -p upstream
   rbm = "!f() { git fet && git rb origin master; }; f"
+  rbo = "!f() { git rebase -i origin/$2; }; f"
   rb = "!f() { git rebase -i $1/$2; }; f"
   fp = "!f() { git push $1 +$2; }; f"
   fpo = "!f() { git push origin +$2; }; f"
   fpoc = "!f() { git fp origin `git cb`; }; f"
+  plc = "!f() { git pull origin `git cb`; }; f"
   prep = "!f() { git add $1 && git amend; }; f"
   prepup = "!f() { git add $1 && git amend && git fpoc; }; f"	 
   send = "!f() { git amend && git fpoc; }; f"
